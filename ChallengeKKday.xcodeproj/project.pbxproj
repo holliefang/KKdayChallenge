@@ -8,20 +8,49 @@
 
 /* Begin PBXBuildFile section */
 		CF58B70E22278593007D4F31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF58B70D22278593007D4F31 /* AppDelegate.swift */; };
-		CF58B71022278593007D4F31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF58B70F22278593007D4F31 /* ViewController.swift */; };
+		CF58B71022278593007D4F31 /* TripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF58B70F22278593007D4F31 /* TripViewController.swift */; };
 		CF58B71322278593007D4F31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF58B71122278593007D4F31 /* Main.storyboard */; };
 		CF58B71522278597007D4F31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF58B71422278597007D4F31 /* Assets.xcassets */; };
 		CF58B71822278597007D4F31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF58B71622278597007D4F31 /* LaunchScreen.storyboard */; };
+		CF58B720222785AC007D4F31 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF58B71F222785AC007D4F31 /* Model.swift */; };
+		CF58B72D2227950B007D4F31 /* TripCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF58B72B2227950B007D4F31 /* TripCollectionViewCell.swift */; };
+		CF58B72E2227950B007D4F31 /* TripCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF58B72C2227950B007D4F31 /* TripCollectionViewCell.xib */; };
+		CF58B73B2227E318007D4F31 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF58B7392227E318007D4F31 /* HomeCell.swift */; };
+		CF58B73C2227E318007D4F31 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF58B73A2227E318007D4F31 /* HomeCell.xib */; };
+		CF58B73F2227E429007D4F31 /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF58B73D2227E429007D4F31 /* BannerCell.swift */; };
+		CF58B7402227E429007D4F31 /* BannerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF58B73E2227E429007D4F31 /* BannerCell.xib */; };
+		CF58B7432227EAB1007D4F31 /* TripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF58B7412227EAB1007D4F31 /* TripTableViewCell.swift */; };
+		CF58B7442227EAB1007D4F31 /* TripTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF58B7422227EAB1007D4F31 /* TripTableViewCell.xib */; };
+		CF6B3E8D222AE3470035AD8D /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6B3E8C222AE3470035AD8D /* extensions.swift */; };
+		CF6B3E90222AE7EB0035AD8D /* PopularDestinationsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6B3E8E222AE7EB0035AD8D /* PopularDestinationsCollectionViewCell.swift */; };
+		CF6B3E91222AE7EB0035AD8D /* PopularDestinationsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF6B3E8F222AE7EB0035AD8D /* PopularDestinationsCollectionViewCell.xib */; };
+		CF6B3E96222AEF3A0035AD8D /* PopularDestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6B3E94222AEF3A0035AD8D /* PopularDestTableViewCell.swift */; };
+		CF6B3E97222AEF3A0035AD8D /* PopularDestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF6B3E95222AEF3A0035AD8D /* PopularDestTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CF58B70A22278593007D4F31 /* ChallengeKKday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChallengeKKday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF58B70D22278593007D4F31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CF58B70F22278593007D4F31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF58B70F22278593007D4F31 /* TripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripViewController.swift; sourceTree = "<group>"; };
 		CF58B71222278593007D4F31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF58B71422278597007D4F31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF58B71722278597007D4F31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF58B71922278597007D4F31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF58B71F222785AC007D4F31 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CF58B72B2227950B007D4F31 /* TripCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCollectionViewCell.swift; sourceTree = "<group>"; };
+		CF58B72C2227950B007D4F31 /* TripCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TripCollectionViewCell.xib; sourceTree = "<group>"; };
+		CF58B7342227CE2B007D4F31 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CF58B7392227E318007D4F31 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		CF58B73A2227E318007D4F31 /* HomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		CF58B73D2227E429007D4F31 /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
+		CF58B73E2227E429007D4F31 /* BannerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannerCell.xib; sourceTree = "<group>"; };
+		CF58B7412227EAB1007D4F31 /* TripTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTableViewCell.swift; sourceTree = "<group>"; };
+		CF58B7422227EAB1007D4F31 /* TripTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TripTableViewCell.xib; sourceTree = "<group>"; };
+		CF6B3E8C222AE3470035AD8D /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		CF6B3E8E222AE7EB0035AD8D /* PopularDestinationsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularDestinationsCollectionViewCell.swift; sourceTree = "<group>"; };
+		CF6B3E8F222AE7EB0035AD8D /* PopularDestinationsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopularDestinationsCollectionViewCell.xib; sourceTree = "<group>"; };
+		CF6B3E94222AEF3A0035AD8D /* PopularDestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularDestTableViewCell.swift; sourceTree = "<group>"; };
+		CF6B3E95222AEF3A0035AD8D /* PopularDestTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopularDestTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +67,7 @@
 		CF58B70122278593007D4F31 = {
 			isa = PBXGroup;
 			children = (
+				CF58B7342227CE2B007D4F31 /* MyPlayground.playground */,
 				CF58B70C22278593007D4F31 /* ChallengeKKday */,
 				CF58B70B22278593007D4F31 /* Products */,
 			);
@@ -55,13 +85,59 @@
 			isa = PBXGroup;
 			children = (
 				CF58B70D22278593007D4F31 /* AppDelegate.swift */,
-				CF58B70F22278593007D4F31 /* ViewController.swift */,
+				CF58B72F2227AD60007D4F31 /* Model */,
+				CF58B7302227AD8C007D4F31 /* Controller */,
+				CF58B7312227ADA3007D4F31 /* View */,
 				CF58B71122278593007D4F31 /* Main.storyboard */,
 				CF58B71422278597007D4F31 /* Assets.xcassets */,
 				CF58B71622278597007D4F31 /* LaunchScreen.storyboard */,
 				CF58B71922278597007D4F31 /* Info.plist */,
 			);
 			path = ChallengeKKday;
+			sourceTree = "<group>";
+		};
+		CF58B72F2227AD60007D4F31 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF58B71F222785AC007D4F31 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF58B7302227AD8C007D4F31 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CF58B70F22278593007D4F31 /* TripViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CF58B7312227ADA3007D4F31 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF58B7412227EAB1007D4F31 /* TripTableViewCell.swift */,
+				CF58B7422227EAB1007D4F31 /* TripTableViewCell.xib */,
+				CF58B72B2227950B007D4F31 /* TripCollectionViewCell.swift */,
+				CF58B72C2227950B007D4F31 /* TripCollectionViewCell.xib */,
+				CF6B3E94222AEF3A0035AD8D /* PopularDestTableViewCell.swift */,
+				CF6B3E95222AEF3A0035AD8D /* PopularDestTableViewCell.xib */,
+				CF6B3E8E222AE7EB0035AD8D /* PopularDestinationsCollectionViewCell.swift */,
+				CF6B3E8F222AE7EB0035AD8D /* PopularDestinationsCollectionViewCell.xib */,
+				CF58B745222A7697007D4F31 /* test */,
+				CF6B3E8C222AE3470035AD8D /* extensions.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF58B745222A7697007D4F31 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				CF58B7392227E318007D4F31 /* HomeCell.swift */,
+				CF58B73A2227E318007D4F31 /* HomeCell.xib */,
+				CF58B73D2227E429007D4F31 /* BannerCell.swift */,
+				CF58B73E2227E429007D4F31 /* BannerCell.xib */,
+			);
+			path = test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +199,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF58B71822278597007D4F31 /* LaunchScreen.storyboard in Resources */,
+				CF6B3E91222AE7EB0035AD8D /* PopularDestinationsCollectionViewCell.xib in Resources */,
+				CF58B7402227E429007D4F31 /* BannerCell.xib in Resources */,
+				CF58B72E2227950B007D4F31 /* TripCollectionViewCell.xib in Resources */,
 				CF58B71522278597007D4F31 /* Assets.xcassets in Resources */,
+				CF58B7442227EAB1007D4F31 /* TripTableViewCell.xib in Resources */,
 				CF58B71322278593007D4F31 /* Main.storyboard in Resources */,
+				CF6B3E97222AEF3A0035AD8D /* PopularDestTableViewCell.xib in Resources */,
+				CF58B73C2227E318007D4F31 /* HomeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +217,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF58B71022278593007D4F31 /* ViewController.swift in Sources */,
+				CF58B73F2227E429007D4F31 /* BannerCell.swift in Sources */,
+				CF58B7432227EAB1007D4F31 /* TripTableViewCell.swift in Sources */,
+				CF6B3E90222AE7EB0035AD8D /* PopularDestinationsCollectionViewCell.swift in Sources */,
+				CF6B3E96222AEF3A0035AD8D /* PopularDestTableViewCell.swift in Sources */,
+				CF58B71022278593007D4F31 /* TripViewController.swift in Sources */,
+				CF6B3E8D222AE3470035AD8D /* extensions.swift in Sources */,
+				CF58B72D2227950B007D4F31 /* TripCollectionViewCell.swift in Sources */,
+				CF58B720222785AC007D4F31 /* Model.swift in Sources */,
 				CF58B70E22278593007D4F31 /* AppDelegate.swift in Sources */,
+				CF58B73B2227E318007D4F31 /* HomeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
